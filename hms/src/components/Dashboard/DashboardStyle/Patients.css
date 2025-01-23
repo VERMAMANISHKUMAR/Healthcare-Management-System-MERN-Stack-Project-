@@ -1,0 +1,161 @@
+/* Patients.css */
+
+/* Overall container */
+.content-container {
+          padding: 20px;
+          max-width: 1200px;
+          margin: 0 auto;
+        }
+        
+        /* Title */
+        .title {
+          font-size: 2rem;
+          color: #0D6EFD;
+          text-align: center;
+          margin-bottom: 20px;
+        }
+        
+        /* Search Bar */
+        .search-bar {
+          margin-bottom: 20px;
+          text-align: center;
+        }
+        
+        .search-input {
+          width: 100%;
+          max-width: 400px;
+          padding: 10px;
+          font-size: 1rem;
+          border: 1px solid #0D6EFD;
+          border-radius: 4px;
+          outline: none;
+        }
+        
+        /* Main Content Layout */
+        .main-content {
+          display: flex;
+          justify-content: space-between;
+          flex-wrap: wrap;
+        }
+        
+        /* Form Container */
+        .form-container {
+          flex: 1 1 30%;
+          background-color: #f9f9f9;
+          padding: 20px;
+          border: 1px solid #0D6EFD;
+          border-radius: 8px;
+          margin-bottom: 20px;
+        }
+        
+        .form-container h4 {
+          margin-bottom: 15px;
+          color: #0D6EFD;
+        }
+        
+        .form-input {
+          width: 100%;
+          padding: 8px;
+          margin-bottom: 15px;
+          font-size: 1rem;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+        }
+        
+        .submit-btn {
+          width: 100%;
+          padding: 10px;
+          background-color: #0D6EFD;
+          color: white;
+          font-size: 1rem;
+          border: none;
+          border-radius: 4px;
+          cursor: pointer;
+        }
+        
+        .submit-btn:hover {
+          background-color: #0056b3;
+        }
+        
+        /* Patient Records */
+        .records-container {
+          flex: 1 1 65%;
+          padding: 20px;
+          border: 1px solid #0D6EFD;
+          border-radius: 8px;
+          margin-bottom: 20px;
+        }
+        
+        .records-list {
+          max-height: 300px;
+          overflow-y: auto;
+        }
+        
+        .patients-table {
+          width: 100%;
+          border-collapse: collapse;
+        }
+        
+        .patients-table th, .patients-table td {
+          padding: 10px;
+          text-align: left;
+          border: 1px solid #ddd;
+        }
+        
+        .patients-table th {
+          background-color: #f0f0f0;
+        }
+        
+        .patients-table td {
+          font-size: 1rem;
+        }
+        
+        .view-btn {
+          padding: 5px 10px;
+          background-color: #0D6EFD;
+          color: white;
+          border: none;
+          border-radius: 4px;
+          cursor: pointer;
+        }
+        
+        .view-btn:hover {
+          background-color: #0056b3;
+        }
+        
+        /* Responsive Styles */
+        @media (max-width: 768px) {
+          .main-content {
+            flex-direction: column;
+          }
+        
+          .form-container,
+          .records-container {
+            width: 100%;
+          }
+        }
+        
+        @media (max-width: 480px) {
+          .title {
+            font-size: 1.5rem;
+          }
+        
+          .search-input {
+            width: 90%;
+            font-size: 0.9rem;
+          }
+        
+          .form-input {
+            font-size: 0.9rem;
+          }
+        
+          .submit-btn,
+          .view-btn {
+            font-size: 0.9rem;
+          }
+        
+          .patients-table th, .patients-table td {
+            font-size: 0.9rem;
+          }
+        }
+        

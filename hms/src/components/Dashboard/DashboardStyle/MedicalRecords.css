@@ -1,0 +1,53 @@
+/* MedicalRecords.css */
+
+.medical-records-container {
+          padding: 40px;
+          background-color: #f5f5f5;
+          border-radius: 10px;
+          box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        .medical-records-title {
+          font-size: 2.5rem;
+          color: #4a90e2; /* A calm, medical blue */
+          margin-bottom: 20px;
+          text-align: center;
+        }
+        
+        .medical-records-table {
+          width: 100%;
+          border-collapse: collapse;
+          margin-top: 20px;
+        }
+        
+        .medical-records-table th, 
+        .medical-records-table td {
+          padding: 15px;
+          text-align: left;
+          border-bottom: 1px solid #ddd;
+          font-size: 1.2rem;
+        }
+        
+        .medical-records-table th {
+          background-color: #2969EE;
+          color: white;
+        }
+        
+        .medical-records-table tr:nth-child(even) {
+          background-color: #87f56c;
+        }
+        
+        .medical-records-table tr:hover {
+          background-color: #e2e8f0;
+        }
+        
+        .medical-records-table td {
+          color: #333;
+        }
+        
+        @media (max-width: 768px) {
+          .medical-records-table {
+            font-size: 1rem;
+          }
+        }
+        

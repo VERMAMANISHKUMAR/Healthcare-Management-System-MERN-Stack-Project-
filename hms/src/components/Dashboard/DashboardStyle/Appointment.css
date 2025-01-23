@@ -1,0 +1,105 @@
+/* Appointment Page Styles */
+
+/* Container */
+.appointments-container {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f4f7fa;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+/* Header */
+.appointments-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.appointments-header h1 {
+  color: white;
+  font-size: 2em;
+  padding: 10px;
+  
+}
+
+/* Main Content */
+.appointments-main {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+.appointment-info p {
+  color: #34495e;
+  font-size: 1.1em;
+  line-height: 1.6;
+}
+
+/* Form Styles */
+.appointment-form-container {
+  margin-top: 30px;
+}
+.appointment-form-container h3 {
+text-align: center;
+color: #2969EE;
+}
+.appointment-form h3 {
+  margin-bottom: 15px;
+  color: #2c3e50;
+  font-size: 1.4em;
+  border-bottom: 2px solid #3498db;
+  padding-bottom: 10px;
+  
+}
+
+.appointment-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.appointment-form label {
+  margin-top: 10px;
+  font-size: 1em;
+  color: #2c3e50;
+}
+
+.appointment-form input, .appointment-form select, .appointment-form textarea {
+  margin-top: 5px;
+  padding: 10px;
+  font-size: 1em;
+  border-radius: 4px;
+  border: 1px solid #bdc3c7;
+  transition: all 0.3s ease;
+}
+
+.appointment-form input:focus, .appointment-form select:focus, .appointment-form textarea:focus {
+  border-color: #3498db;
+  box-shadow: 0 0 5px rgba(52, 152, 219, 0.2);
+  outline: none;
+}
+
+.appointment-form textarea {
+  resize: none;
+}
+
+/* Submit Button */
+.submit-btn {
+  margin-top: 20px;
+  padding: 12px;
+  font-size: 1em;
+  color: #fff;
+  background-color: #3498db;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #2980b9;
+}
+
+
+

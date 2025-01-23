@@ -1,0 +1,155 @@
+/* Global Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Header Styles */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: #2969EE;
+  color: #fff;
+  position: relative;
+}
+
+header h2 {
+  margin: 0;
+}
+
+/* Navigation Styles */
+nav {
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+nav a:hover {
+  color: yellow;
+}
+
+/* Search and Sign In Styles */
+.search-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.search-container input {
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  width: 200px;
+}
+
+.search-container button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  background-color: #fff;
+  color: black;
+  cursor: pointer;
+  margin-left: -5px; /* Close the gap to maintain the rounded corner effect */
+}
+
+.search-container button:hover {
+  background-color: #3e8e41;
+}
+
+/* Sign-in Button Styles */
+.sign-in-button button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #F8C140;
+  color: #fff;
+  cursor: pointer;
+  margin-left: 15px;
+}
+
+.sign-in-button button:hover {
+  background-color: #3e8e41;
+}
+
+/* Menu Icon for Mobile */
+.menu-icon {
+  display: none;
+  flex-direction: column;
+  gap: 4px;
+  cursor: pointer;
+  margin-left: 85%;
+  position: absolute;
+  margin-top: 12px;
+}
+
+.menu-bar {
+  width: 25px;
+  height: 3px;
+  background-color: #fff;
+  border-radius: 3px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  nav {
+    display: none;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  nav.nav-active {
+    display: flex;
+  }
+ 
+  .search-container {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .search-container input {
+    width: 100%;
+  }
+
+  .sign-in-button {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .menu-icon {
+    display: flex;
+  }
+}
+
+@media (max-width: 480px) {
+  header {
+    padding: 10px;
+  }
+
+  .search-container button,
+  .sign-in-button button {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+/*  */
+.scrolling-text {
+  margin: 20px 0;
+  padding: 10px;
+  background-color: #f8f9fa;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  text-align: center;
+}

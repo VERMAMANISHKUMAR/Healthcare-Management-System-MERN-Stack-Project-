@@ -1,0 +1,61 @@
+.about-container {
+          background-color: #f9f9f9;
+          padding: 2rem;
+          border-radius: 8px;
+        }
+        
+        .values-section .value-card {
+          background-color: #fff;
+          transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        }
+        
+        .values-section .value-card:hover {
+          transform: scale(1.05);
+          box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        .values-section h5 {
+          font-weight: 600;
+          color: #007bff;
+        }
+        
+        .values-section p {
+          font-size: 0.9rem;
+          color: #555;
+        }
+        .gallery-section {
+          padding: 2rem 0;
+        }
+        
+        .carousel img {
+          height: 400px;
+          object-fit: cover;
+        }
+        
+        .carousel-caption h5 {
+          font-size: 1.5rem;
+          font-weight: bold;
+        }
+        
+        .carousel-caption p {
+          font-size: 1rem;
+          color: #f1f1f1;
+        }
+        .gallery-section {
+  padding: 2rem 0;
+}
+
+.carousel img {
+  height: 450px;
+  object-fit: cover;
+}
+
+.carousel-caption h5 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.carousel-caption p {
+  font-size: 1rem;
+  color: #f1f1f1;
+}
