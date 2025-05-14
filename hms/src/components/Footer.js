@@ -1,4 +1,4 @@
-import React from "react";
+
 import "bootstrap/dist/css/bootstrap.min.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHome, faEnvelope, faPhone, faPrint } from "@fortawesome/free-solid-svg-icons";
@@ -12,7 +12,7 @@ const Footer = () => {
         <section>
           <div className="row">
             <div className="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-              <h6 className="text-uppercase mb-4 font-weight-bold text-start text-bold">Healthcare Management System</h6>
+              <h4 className="text-uppercase mb-4 font-weight-bold text-start text-bold">Healthcare Management System</h4>
               <p className="text-start">
                 Our Healthcare Management System provides comprehensive solutions for patient care, appointment scheduling, 
                 medical records management, and real-time doctor-patient communication. Revolutionizing the healthcare industry
@@ -20,24 +20,24 @@ const Footer = () => {
               </p>
             </div>
             <hr className="w-100 clearfix d-md-none" />
-            <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-              <h6 className="text-uppercase mb-4 font-weight-bold text-start">Products</h6>
+            <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mt-1">
+              <h6 className="text-uppercase mb-2 font-weight-bold text-start">Products</h6>
               <p className="text-start"><a href="#!" className="text-white">Patient Portal</a></p>
               <p className="text-start"><a href="#!" className="text-white">Appointment Management</a></p>
               <p className="text-start"><a href="#!" className="text-white">Medical Records</a></p>
               <p className="text-start"><a href="#!" className="text-white">Billing & Payments</a></p>
             </div>
             <hr className="w-100 clearfix d-md-none" />
-            <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
-              <h6 className="text-uppercase mb-4 font-weight-bold text-start">Useful Links</h6>
+            <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mt-1">
+              <h6 className="text-uppercase mb-2 font-weight-bold text-start">Useful Links</h6>
               <p className="text-start"><a href="#!" className="text-white">Contact Support</a></p>
               <p className="text-start"><a href="#!" className="text-white">Privacy Policy</a></p>
               <p className="text-start"><a href="#!" className="text-white">Careers</a></p>
               <p className="text-start"><a href="#!" className="text-white">Terms & Conditions</a></p>
             </div>
             <hr className="w-100 clearfix d-md-none" />
-            <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
-              <h6 className="text-uppercase mb-4 font-weight-bold text-start">Contact</h6>
+            <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mt-1">
+              <h6 className="text-uppercase mb-2 font-weight-bold text-start">Contact</h6>
               <p className="text-start"><FontAwesomeIcon icon={faHome} className="mr-1" /> New York, NY 10012, US</p>
               <p className="text-start"><FontAwesomeIcon icon={faEnvelope} className="mr-1" /> info@healthcare.com</p>
               <p className="text-start"><FontAwesomeIcon icon={faPhone} className="mr-1" /> +1 234 567 890</p>
